@@ -1,0 +1,13 @@
+---
+import CardProyect from "./CardProyect.astro"
+import { proyects_data } from "../data/info"
+---
+
+<section class="bg-fondo-secundario text-center" id="proyects">
+    <h2 class="subtitle mb-10 mt-20">PROYECTOS</h2>
+    <div class="flex flex-col gap-14 my-7">
+      {proyects_data.map((proyect) => (
+        <CardProyect image={proyect.img} name={proyect.name} description={proyect.descripcion} tecnologias={proyect.tecnologias} repositorio={proyect.repositorio} url={proyect.url}/>
+      ))}
+    </div>
+  </section>

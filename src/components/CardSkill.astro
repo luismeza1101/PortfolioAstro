@@ -1,0 +1,12 @@
+---
+interface Props{
+  name: string;
+}
+
+const {name} = Astro.props
+---
+
+<div class='cardSkill'>
+    <img src={`../../imgs/tools/${name}.webp`} alt="Icono" class="w-[70px] h-[80px] desktop:w-full"/>
+    <span class='font-semibold'>{name}</span>
+</div>

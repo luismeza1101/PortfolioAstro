@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styleSheets/index.css'
+import '../styleSheets/customerStyles.css'
+import '../styleSheets/global.css'
+import Header from '../components/Header';
+import Hero from '../components/Hero'
+import AboutMe from '../components/AboutMe.astro'
+import Skills from '../components/Skills.astro';
+import Proyects from '../components/Proyects.astro';
+import ContactMe from '../components/ContactMe.astro';
+---
+
+<Layout>
+	<Header client:load/>
+	<div class='w-full bg-fondo font-montserrat text-black'>
+		<Hero client:load/>
+		<AboutMe/>
+		<Skills/>
+		<Proyects/>
+		<ContactMe/>
+		<p class='text-text-gray py-4 text-center'>Copywrigth &copy; Ednilson Luis Meza Corilla</p>
+	</div>
+</Layout>
