@@ -41,6 +41,12 @@ export const cards_skills: SkillsCard[] = [
   {
     name: "Github",
   },
+  {
+    name: "Astro"
+  },
+  {
+    name: "Next"
+  }
 ];
 
 export const proyects_data: ProyectCard[] = [
@@ -62,4 +68,12 @@ export const proyects_data: ProyectCard[] = [
     repositorio: "https://github.com/luismeza1101/Notifications.git",
     url: "https://amazing-taiyaki-5ce932.netlify.app/",
   },
+  {
+    img: "clima.png",
+    name: "Sitio web del clima",
+    descripcion: "Este sitio web esta desarrollado para que puedas saber la temperatura actual del lugar en el que te encuentras, ademas cuenta con 4 espacios vacios adicionales donde puedes tener el clima de la ciudad que quieras",
+    tecnologias: ["Next.js", "Tailwind CSS", "Typescript"],
+    repositorio: "https://github.com/luismeza1101/Clima.git",
+    url: "https://clima-sigma-dusky.vercel.app/"
+  }
 ];
