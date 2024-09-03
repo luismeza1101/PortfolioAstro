@@ -75,5 +75,13 @@ export const proyects_data: ProyectCard[] = [
     tecnologias: ["Next.js", "Tailwind CSS", "Typescript"],
     repositorio: "https://github.com/luismeza1101/Clima.git",
     url: "https://clima-sigma-dusky.vercel.app/"
+  },
+  {
+    img: "sneakerShop.png",
+    name: "Tienda virtual de zapatillas",
+    descripcion: "Desafio dificil recopilado del sitio web Frontend Mentor, que simula la seccion de un e-commerce de una tienda de zapatillas en linea",
+    tecnologias: ["Next.js", "Tailwind CSS", "Typescript"],
+    repositorio: "https://github.com/luismeza1101/SneakerStore.git",
+    url: "https://sneaker-store-bice.vercel.app/"
   }
 ];
