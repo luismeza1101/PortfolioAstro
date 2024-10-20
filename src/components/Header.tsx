@@ -18,7 +18,6 @@ const Header = () => {
             <h2 className='font-bold'>LM</h2>
             <ul className='flex flex-col justify-start gap-5 py-7 text-text-gray'>
               <li onClick={() => setShowNavBar(false)}><a href="#about_me">Sobre Mi</a></li>
-              <li onClick={() => setShowNavBar(false)}><a href="#skills">Habilidades</a></li>
               <li onClick={() => setShowNavBar(false)}><a href="#proyects">Proyectos</a></li>
               <li onClick={() => setShowNavBar(false)}><a href="#contact_me">Contactame</a></li>
             </ul>
@@ -30,7 +29,6 @@ const Header = () => {
         <nav className='hidden md:block'>
             <ul className='flex items-center text-lg  text-text-gray md:gap-6 md:text-xl'>
                 <li className='hover:text-text-gray'><a href="#about_me">Sobre Mi</a></li>
-                <li className='hover:text-text-gray'><a href="#skills">Habilidades</a></li>
                 <li className='hover:text-text-gray'><a href="#proyects">Proyectos</a></li>
                 <li className='hover:text-text-gray'><a href="#contact_me">Contactame</a></li>
                 {/* <li><button className='bg-fondo-boton text-white rounded-lg p-1 hover:bg-fondo-claro'>Descargar CV</button></li> */}

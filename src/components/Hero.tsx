@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <main className="w-full h-[100vh] flex flex-col-reverse justify-center items-center gap-4 md:flex-row md:justify-evenly">
-      <div className="flex flex-col gap-4 desktop:w-[60%] desktop:pl-[100px]">
+      <div className="flex flex-col items-start gap-4 desktop:w-[60%] desktop:pl-[100px]">
         <h1 className="text-4xl font-bold mt-8 desktop:text-6xl">
           Hola, Soy Luis Meza
         </h1>
@@ -46,10 +46,11 @@ const Hero = () => {
             <FaLinkedin className="custom-icon" />
           </a>
         </div>
+        <a className="button-links" href="#proyects" >Ver Proyectos</a>
       </div>
       <picture className="desktop:w-[40%]">
         <img
-          src="../../imgs/PictureMe.jpg"
+          src="./imgs/PictureMe.jpg"
           alt="Foto"
           className="w-[250px] h-[250px] border-8 border-gray-400 shadow-shadow-picture select-none object-cover xl:w-[450px] xl:h-[450px] "
         />
